@@ -241,7 +241,6 @@ function PropertyCard({ property }) {
     </div>
   );
 }
-
 function App() {
   const properties = [
     {
@@ -269,6 +268,55 @@ function App() {
       availability: 'Ready to Move',
       image: 'https://images.unsplash.com/photo-1565183997392-2f6f122e5912?auto=format&fit=crop&w=800&q=80',
       lowDeposit: false
+    },
+    {
+      id: 3,
+      title: '2 BHK House For Rent In M N Homes',
+      location: 'Independent House, Near Kundalahalli Gate',
+      rent: 24000,
+      deposit: 60000,
+      furnishing: 'Semi Furnished',
+      type: '2 BHK',
+      tenantType: 'All',
+      availability: 'Ready to Move',
+      image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80',
+      lowDeposit: true
+    }, {
+      id: 1,
+      title: '2 BHK House For Rent In M N Homes',
+      location: 'Independent House, Near Kundalahalli Gate',
+      rent: 24000,
+      deposit: 60000,
+      furnishing: 'Semi Furnished',
+      type: '2 BHK',
+      tenantType: 'All',
+      availability: 'Ready to Move',
+      image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80',
+      lowDeposit: true
+    }, {
+      id: 1,
+      title: '2 BHK House For Rent In M N Homes',
+      location: 'Independent House, Near Kundalahalli Gate',
+      rent: 24000,
+      deposit: 60000,
+      furnishing: 'Semi Furnished',
+      type: '2 BHK',
+      tenantType: 'All',
+      availability: 'Ready to Move',
+      image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80',
+      lowDeposit: true
+    }, {
+      id: 1,
+      title: '2 BHK House For Rent In M N Homes',
+      location: 'Independent House, Near Kundalahalli Gate',
+      rent: 24000,
+      deposit: 60000,
+      furnishing: 'Semi Furnished',
+      type: '2 BHK',
+      tenantType: 'All',
+      availability: 'Ready to Move',
+      image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80',
+      lowDeposit: true
     },
     // Add more properties as needed
   ];
